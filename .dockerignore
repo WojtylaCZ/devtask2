@@ -1,0 +1,10 @@
+.dockerignore
+Dockerfile
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv
+tox.ini
