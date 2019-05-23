@@ -1,6 +1,6 @@
-FROM riordan/docker-jupyter-scipy-notebook-libpostal
+FROM wojtylacz/pypostal-docker
 
-RUN pip install pytest
+RUN pip3 install pytest
 
 COPY addressline /app
 

@@ -3,7 +3,7 @@
 ## Requirements
 
 - `docker` utility
-- 6 GB of free disk space :) Read below.
+- 2.9 GB of free disk space :) Read below.
 
 ## Getting started
 
@@ -28,9 +28,7 @@ Interact with the interactive console of the running docker image.
 
 2. I decided to use the **Libpostal** library to parse the address string. I guess you will say that I skipped the expected & the hardest part, on the other hand I'm curious what you think about this straightforward approach.
 I do not like re-inventing wheel, I like to spend time on building solutions.
-There is an existing public [docker image](https://github.com/riordan/docker-jupyter-libpostal) with the python bindings **pypostal** installed.
-It contains un-necessary Jupyter scipy-notebook and it is big ~ 6GB in image size. Indeed, not really convenient. That would be a first improvement to make it smaller and by creating an own docker image with just pypostal (non-trivial installation, C library based).
-
+I also created public image [docker image](https://github.com/wojtylacz/pypostal-docker) with the python bindings **pypostal** installed.
 
 
 ## Development
